@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Breaking News</title>
+
+    <!-- CSS Code -->
+    <style>
+      /* Style for header */
+      header {
+        background-color: #333;
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 1;
+      }
+
+      /* Style for logo */
+      header h1 {
+        margin: 0;
+      }
+
+      /* Style for top navigation menu */
+      .topnav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Style for top navigation menu links */
+      .topnav a {
+        color: white;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        display: block;
+      }
+
+      /* Style for hamburger icon */
+      .icon {
+        display: none;
+      }
+
+      /* Style for right section */
+      .right-section {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      /* Style for search bar */
+      .search-container {
+        display: flex;
+        align-items: center;
+        padding: 8px 0;
+        margin-right: 20px;
+        background: #ddd;
+        border-radius: 40px;
+      }
+
+      /* Style for search bar input */
+      .search-container input[type="text"] {
+        padding: 6px;
+        margin-left: 10px;
+        font-size: 17px;
+        border: none;
+        width: 60%;
+      }
+
+      /* Style for search bar button */
+      .search-container button {
+        padding: 6px 10px;
+        margin-left: 10px;
+        background: #333;
+        color: white;
+        font-size: 17px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+      }
+
+      /* Style for main section */
+      main {
+        margin-top: 70px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      /* Style for breaking news section */
+      .breaking-news {
+        width: 70%;
+        background-color: #ddd;
+        padding: 20px;
+        text-align: center;
+        border-radius: 10px;
+      }
+
+          
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Breaking News</h1>
+      <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">Category 1</a>
+        <a href="#">Category 2</a>
+        <a href="#">Category 3</a>
+      </div>
+      <div class="right-section">
+        <div class="search-container">
+          <input type="text" placeholder="Search news">
+          <button>Search</button>
+        </div>
+      </div>
+      <!-- Hamburger icon for responsive design -->
+      <span class="icon">
+        <i class="fa fa-bars"></i>
+      </span>
+    </header>
+
+    <!-- Main section -->
+    <main>
+      <!-- Breaking news section -->
+      <div class="breaking-news">
+        <h1>Breaking News</h1>
+        <p>Latest breaking news and updates</p>
+      </div>
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <h1>Breaking News</h1>
+      <div class="topnav">
+        <a href="#">Home</a>
+        <a href="#">Category 1</a>
+        <a href="#">Category 2</a>
+        <a href="#">Category 3</a>
+      </div>
+      <div class="right-section">
+        <div class="search-container">
+          <input type="text" placeholder="Search news">
+          <button>Search</button>
+        </div>
+      </div>
+      <!-- Hamburger icon for responsive design -->
+      <span class="icon">
+        <i class="fa fa-bars"></i>
+      </span>
+    </header>
+
+    <!-- Main section -->
+    <main>
+      <!-- Breaking news section -->
+      <div class="breaking-news">
+        <h1>Breaking News</h1>
+        <p>Latest breaking news and updates</p>
+      </div>
+
+      <!-- Other section -->
+      <div class="other-section">
+        <h2>Other News</h2>
+        <ul>
+          <li><a href="#">News 1</a></li>
+          <li><a href="#">News 2</a></li>
+          <li><a href="#">News 3</a></li>
+          <li><a href="#">News 4</a></li>
+          <li><a href="#">News 5</a></li>
+        </ul>
+      </div>
+    </main>
+
+       <!-- JavaScript Code -->
+    <script>
+      // Toggle navigation menu on hamburger icon click
+      const icon = document.querySelector(".icon");
+      const topnav = document.querySelector(".topnav");
+
+      icon.addEventListener("click", function() {
+        topnav.classList.toggle("responsive");
+      });
+    </script>
+  </body>
+</html>
+
+    
+
